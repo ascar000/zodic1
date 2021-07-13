@@ -1,0 +1,33 @@
+/*Стили для очень маленьких экранов(575px)*/
+@media(max-width: 575px){
+	.menu{
+		position: inherit;
+	}
+	.menu a{
+		width: 100%;
+		padding: 20px 0;
+	}
+	.header{
+		background-size: cover;
+		background-position: center center;
+		padding: 100px 10px;
+		margin-top: 0;
+		min-height: 300px;
+	}
+	.tarif1, .tarif2, .tarif3{
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 300px;
+	width: 30%;
+	padding: 15px 0;
+	margin: 0;
+	}
+	.tarif1 .li,.tarif2 .li, .tarif3 .li{
+	/*min-width: 298px;*/
+	width: 100%;
+	padding: 15px 0;
+	background-color: #fff;
+	list-style-type: none;
+	margin: 0;
+	}
+}
